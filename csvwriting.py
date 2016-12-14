@@ -2,7 +2,7 @@
 import csv
 
 # create file
-csvfile = open("csvfile.txt", "w")
+csvfile = open("csvfile.csv", "w")
 
 # create csvwriter
 csvwriter = csv.writer(csvfile, delimiter=",")
